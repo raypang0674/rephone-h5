@@ -1,0 +1,121 @@
+{
+  "LOGO": {
+    "id": "1",
+    "img": "/images/logo.png",
+    "title": "号码修复系统"
+  },
+  "applicationId": 1,
+  "memo1": "applicationId是数据库中某系统的id；如果要全部，填0",
+  "memo2": "以下不用，是后台返回导航的json结构例子",
+  "nav": [
+    {
+      "icon": "el-icon-s-platform",
+      "title": "信息管理",
+      "child": [
+        {
+          "title": "HelloWorld1",
+          "path": "/welcome1/1"
+        },
+        {
+          "title": "HelloWorld2",
+          "path": "/welcome1/2"
+        },
+        {
+          "title": "HelloWorld2x",
+          "path": "/welcome2"
+        },
+        {
+          "title": "应用管理",
+          "path": "/applicationList"
+        },
+        {
+          "title": "角色管理",
+          "path": "/roleList"
+        },
+        {
+          "title": "权限管理",
+          "path": "/permissionList"
+        },
+        {
+          "title": "用户管理",
+          "path": "/userList"
+        }
+      ]
+    },
+    {
+      "icon": "el-icon-setting",
+      "title": "基础设置",
+      "child": [
+        {
+          "title": "设置导航",
+          "path": "/nav"
+        },
+        {
+          "title": "设置个人信息",
+          "path": "/mineInfo"
+        },
+        {
+          "title": "修改密码",
+          "path": "/updatePass"
+        }
+      ]
+    },
+    {
+      "icon": "fa fa-book",
+      "title": "文章分类",
+      "child": [
+        {
+          "title": "富文本编辑器",
+          "path": "/quillEditor"
+        },
+        {
+          "title": "文章管理",
+          "path": "/articleManager"
+        }
+      ]
+    },
+    {
+      "icon": "el-icon-chat-line-square",
+      "title": "留言管理",
+      "path": "/mail"
+    },
+    {
+      "icon": "el-icon-coin",
+      "title": "基础演示",
+      "path": "/base",
+      "child": [
+        {
+          "title": "滑块",
+          "path": "/slider"
+        },
+        {
+          "title": "文件上传",
+          "path": "/uploadFile"
+        },
+        {
+          "title": "卡片列表",
+          "path": "/cardList"
+        },
+        {
+          "title": "图片瀑布屏",
+          "path": "/waterfall"
+        },
+        {
+          "title": "步骤条（流程条）",
+          "path": "/steps"
+        }
+      ]
+    },
+    {
+      "icon": "el-icon-error",
+      "title": "错误页面",
+      "path": "/error",
+      "child": [
+        {
+          "title": "404页面",
+          "path": "/404"
+        }
+      ]
+    }
+  ]
+}
