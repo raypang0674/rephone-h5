@@ -1,5 +1,4 @@
 # repairphone
-# 参考网上例子VueBlog-master
 
 > repairphone Console
 
